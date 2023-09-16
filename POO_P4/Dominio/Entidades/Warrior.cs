@@ -1,9 +1,4 @@
 ﻿using POO_P4.Dominio.Enumeradores;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POO_P4.Dominio.Entidades
 {
@@ -24,6 +19,8 @@ namespace POO_P4.Dominio.Entidades
             Name = name;
             GoodGuyStartingHealth = goodGuyStartingHealth;
             BadGuyStartingHealth = badGuyStartingHealth;
+            Weapon = new Weapon(0, 0, 0);
+            Armor = new Armor(0, 0, 0);
             SetHealth((faction == Faction.GoodGuy) ? goodGuyStartingHealth : badGuyStartingHealth);
             IsAlive = true;
         }
@@ -63,12 +60,15 @@ namespace POO_P4.Dominio.Entidades
             BadGuyStartingHealth = badGuyStartingHealth;
         }
 
-        public void Attack(Warrior enemy)
+        public int Attack(Warrior enemy)
         {
             if (IsAlive && enemy.IsAlive)
             {
-                int damage = (Faction == Faction.GoodGuy) ? Weapon.GoodGuyDamage : Weapon.BadGuyDamage;
+                int damage = Faction != Faction.GoodGuy ? Weapon.BadGuyDamage : Weapon.GoodGuyDamage;
+                enemy.Health -= damage;
+                return damage;
             }
+            return 0;
         }
     }
 }

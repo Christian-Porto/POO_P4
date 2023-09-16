@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace POO_P4.Dominio.Entidades
+﻿namespace POO_P4.Dominio.Entidades
 {
     public class Armor
     {

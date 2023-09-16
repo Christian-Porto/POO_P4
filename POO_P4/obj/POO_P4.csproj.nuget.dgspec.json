@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Christian\\Documents\\Git\\POO_P4\\POO_P4\\POO_P4\\POO_P4.csproj": {}
+    "C:\\Users\\Christian\\Documents\\Git\\POO_P4\\POO_P4\\POO_P4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Christian\\Documents\\Git\\POO_P4\\POO_P4\\POO_P4\\POO_P4.csproj": {
+    "C:\\Users\\Christian\\Documents\\Git\\POO_P4\\POO_P4\\POO_P4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Christian\\Documents\\Git\\POO_P4\\POO_P4\\POO_P4\\POO_P4.csproj",
+        "projectUniqueName": "C:\\Users\\Christian\\Documents\\Git\\POO_P4\\POO_P4\\POO_P4.csproj",
         "projectName": "POO_P4",
-        "projectPath": "C:\\Users\\Christian\\Documents\\Git\\POO_P4\\POO_P4\\POO_P4\\POO_P4.csproj",
+        "projectPath": "C:\\Users\\Christian\\Documents\\Git\\POO_P4\\POO_P4\\POO_P4.csproj",
         "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Christian\\Documents\\Git\\POO_P4\\POO_P4\\POO_P4\\obj\\",
+        "outputPath": "C:\\Users\\Christian\\Documents\\Git\\POO_P4\\POO_P4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
